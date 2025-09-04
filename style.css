@@ -1,0 +1,59 @@
+* Universal selector to reset default browser styling for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* A best practice for consistent box model sizing */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Class selector for a reusable card component */
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ID selector for a specific element */
+#special-heading {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block; /* Makes border only as wide as the content */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Element selector for all paragraphs */
+p {
+    margin-bottom: 15px;
+}
+
+/* Descendant selector to target list items inside a card */
+.card ul li {
+    margin-left: 20px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
